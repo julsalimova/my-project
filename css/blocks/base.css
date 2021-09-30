@@ -103,6 +103,7 @@ img {
   border: 1px solid #da0100;
   max-width: 135px;
   padding: 18px 29px;
+  margin-left: 22px;
 }
 .button--lihgt:hover {
   background: #f5170e;

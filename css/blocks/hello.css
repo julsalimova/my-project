@@ -1,5 +1,6 @@
 .hello {
   margin-bottom: 246px;
+  
 }
 
 .hello__title {
@@ -10,6 +11,7 @@ line-height: 90px;
 margin-bottom: 25px;
 width: 511px;
 color: #FFFFFF;
+
 }
 
 .hello__text {
@@ -17,9 +19,11 @@ color: #FFFFFF;
   line-height: 20px;
   margin-bottom: 35px;
   color: #FFFFFF;
+
 }
 
 .button--more {
  left: 0;
+
 }
 
