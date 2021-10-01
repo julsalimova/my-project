@@ -21,7 +21,6 @@
 }
  .menu {
    left: 165px;
-   top: 200%;
    transform: translate(0%, -50%);
  }
  .menu__item {
