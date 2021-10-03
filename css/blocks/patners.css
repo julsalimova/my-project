@@ -1,0 +1,35 @@
+.inner-section {
+  background: #fff;
+  color: #1A1B1E;
+  padding: 90px 0;
+}
+
+.inner-section--grey {
+  background: #F4F5F5;;
+}
+
+.inner-section__title {
+font-size: 48px;
+line-height: 65px;
+font-weight: bold;
+margin-bottom: 90px;
+}
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
+}
+.partners__item {
+  
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+

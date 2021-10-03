@@ -4,17 +4,9 @@
 
 .about__container {
   position: relative;
+  display: flex;
 }
 
-.about__img {
-  position: absolute;
-  left: 0;
-}
-
-
-.about__content {
-  height: 550px;
-}
 
 .about__cover {
   display: block;
@@ -23,15 +15,14 @@
   position: absolute;
   z-index: 2px;
   right:  0;
-  margin-top: 90px;
+  margin-top: 150px;
 }
 
 .about__title {
   font-weight: bold;
   font-size: 24px;
   line-height: 37px;
-  margin-top: 150px;
-  margin-left: 400px;
+  margin-top: 200px;
   position: absolute;
 }
 
@@ -41,7 +32,6 @@
   line-height: 27px;
   width: 502px;
   margin-top: 250px;
-  margin-left: 400px;
   position: absolute;
   color: #060606;
 
@@ -58,5 +48,4 @@
 .button--red {
   position: absolute;
   margin-top: 430px;
-  margin-left: 410px;
 }

@@ -1,58 +1,53 @@
 .header {
-  padding-top: 26px;
-  margin-bottom: 180px;
-  height: 70px;
+  margin-top: 25px;
+  margin-bottom: 100px;
 }
 
 .header__container {
-  position: relative;
-  
-}
-.logo, .menu, .menu__item, .social, .social__item  {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo, .menu, .contacts {
-  position: absolute;
+.header__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  margin-right: 79px;
-  left: 0;
+  display: block;
+  margin-right: 66px;
+} 
+.menu__list  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
- .menu {
-   left: 165px;
-   top: 50%;
-   transform: translate(0%, -50%);
- }
- .menu__item {
-   margin-right: 54px;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 19px;
- }
- .menu__item :last-child {
-  margin-right: 0;
- }
- .contacts {
-  right: 0;
- }
+.menu__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 0 54px;
+}
+
+.header__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
  .contacts__phone {
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
-  line-height: 35px;
   color: #FFFFFF;
-  
  }
+
  .contacts__info {
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  line-height: 20px;
-  text-align: center;
   text-decoration-line: underline;
   color: #FFFFFF;
  }

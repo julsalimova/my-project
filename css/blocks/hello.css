@@ -1,6 +1,11 @@
 .hello {
   margin-bottom: 246px;
-  
+}
+.hello__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 330px;
 }
 
 .hello__title {
@@ -8,8 +13,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 72px;
 line-height: 90px;
-margin-bottom: 25px;
-width: 511px;
+width: 50%;
 color: #FFFFFF;
 
 }
@@ -17,7 +21,6 @@ color: #FFFFFF;
 .hello__text {
   font-size: 18px;
   line-height: 20px;
-  margin-bottom: 35px;
   color: #FFFFFF;
 
 }
