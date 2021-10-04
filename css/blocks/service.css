@@ -86,14 +86,21 @@ color: #000000;
   line-height: 27px;
   margin-bottom: 5%;
 }
-
-.paginator__list--dark:hover {
-  background:#F5170E;
-  color:  #FFFFFF;;
+.paginator__item-dark{
+  background: none;
   border-radius: 50%;
   width: 32px;
   height: 32px;
   line-height: 32px;
-  
+  text-align: center;
  }
+.paginator__item-dark:hover {
+  background:  #F5170E;
+  color:  #FFFFFF;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+ }
+ 
 
