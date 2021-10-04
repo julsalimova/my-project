@@ -75,18 +75,22 @@ margin-bottom: 3px;
   justify-content: space-between;
   }
 
-  .paginator__item  {
-    padding: 0 5px;
+  .paginator__item-dark  {
+    background: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
    }
 
-.paginator__item:hover {
-  background: #FFFFFF;
-  color:  #F5170E;
+.paginator__item-dark:hover {
+  background:  #F5170E;
+  color:  #FFFFFF;
   border-radius: 50%;
   width: 32px;
   height: 32px;
   line-height: 32px;
-
  }
 
 .paginator__link{
