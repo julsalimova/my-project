@@ -19,10 +19,15 @@
   margin-right: 30px;
   border-radius: 5px;
   background: #FFFFFF;
-  border: none;
+  outline: none;
   padding: 30px 20px;
   font-size: 18px;
   color: #1A1B1E;
+  border: 1px solid transparent;
+}
+
+.form__input:focus {
+  border: 1px solid #F5170E;
 }
 
 .form__input::placeholder {
@@ -36,6 +41,10 @@
 
 .form__input--textarea {
 height: 235px;
+font-weight: normal;
+font-size: 18px;
+align-items: center;
+color: #666666;
 }
 
 .form__controls {
