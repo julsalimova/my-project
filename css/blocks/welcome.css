@@ -25,7 +25,7 @@
 }
 
 .central {
-  opacity: 0;
+  opacity: 1;
   animation-fill-mode: forwards;
   animation: zoom 1s ease-in;
 }
