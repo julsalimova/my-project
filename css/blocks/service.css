@@ -2,7 +2,6 @@
   min-height: 412px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 18px;
 }
 
 .top-line__container {
@@ -15,12 +14,13 @@
 .page-title {
 font-weight: bold;
 font-size: 72px;
-line-height: 98px;
+margin-bottom: 100px;
 }
 
 .breadcrumbs__list {
   display: flex;
   align-items: center;
+  margin-bottom: 34px;
 }
 .breadcrumbs__link {
   color: #9A9A9A;

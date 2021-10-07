@@ -1,5 +1,4 @@
 .footer {
-  padding-bottom: 26px;
   height: 70px;
 }
 
@@ -64,11 +63,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 15%;
+  margin-right: 73px;
  }
 
 .social__item {
-  padding: 0 2px;
+  padding: 0 5px;
 }
 
  .social__link {

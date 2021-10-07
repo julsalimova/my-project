@@ -28,7 +28,11 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  padding: 0 54px;
+  margin-right: 54px; 
+}
+
+.menu__item :last-child {
+  margin-right: 0px;
 }
 
 .header__right {
