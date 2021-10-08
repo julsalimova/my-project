@@ -84,29 +84,5 @@ border-radius: 50%;
   font-size: 14px;
  }
 
- .form__buttons {
-   display: flex;
-   justify-content: flex-end;
-   margin-bottom: 100px;
- }
-
- .button {
-   cursor: pointer;
- }
-
- .button--black {
-  background: #2B2B2B;
- }
-
- .button--black:hover {
-  background: #F5170E;
-  color: #FFFFFF;
- }
-
- .form__button {
-   margin-right: 17px;
- }
- .form__button :last-child {
-   margin-right: 0px;
- }
+ 
  
