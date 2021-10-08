@@ -194,68 +194,65 @@
           </div>
         </div>
       </section>
-      <section class="inner-form">
+      <section class="form">
         <div class="container">
-          <h2 class="inner-form__title ">
+          <h2 class="form__title">
             Оставьте отзыв
           </h2>
-          <form action="" class="form">
-            <div class="form__row">
-              <input type="text" placeholder="ФИО" class="form__input">
-              <input type="text" placeholder="Ссылка на профиль" class="form__input">
+          <form action="" class="form-reviews">
+            <div class="form__line">
+              <input type="text" placeholder="ФИО" class="form-reviews__input">
+              <input type="text" placeholder="Ссылка на профиль" class="form-reviews__input">
             </div>
+            <textarea class="form-reviews__textarea" placeholder="Напишите свой честный отзыв ;)"></textarea>
           </form>
-          <div class="form__row">
-            <textarea name="" id="" cols="30" rows="10" class="form__input form__input--textarea"></textarea>
-          </div>
-        
-        <div class="form__controls">
-          <div class="form-controls__title">
+          <div class="form-reviews__end">
+          <div class="form-reviews__text">
             Какими услугами компании пользуетесь?
           </div>
-          <ul class="controls__list">
-            <li class="controls__item">
-              <label class="controls__elem">
-                <input type="checkbox" class="controls__checkbox"></input>
-                <div class="tag controls__tag">Остров обезьян</div>
+          <ul class="form-reviews__list">
+            <li class="form-reviews__item">
+              <input type="radio" name="radio" id="radio1" class="form-reviews__radio-button" hidden></input>
+              <label class="form-reviews__label" for="radio1">
+                <div class="form-reviews__label-text">Остров обезьян</div>
               </label>
             </li>
-            <li class="controls__item">
-              <label class="controls__elem">
-                <input type="checkbox" class="controls__checkbox"></input>
-                <div class="tag controls__tag">Тур по Тайланду </div>
+            <li class="form-reviews__item">
+              <input type="radio" name="radio" id="radio2" class="form-reviews__radio-button" hidden></input>
+              <label class="form-reviews__label" for="radio2">
+                <div class="form-reviews__label-text">Тур по Тайланду</div>
               </label>
             </li>
-            <li class="controls__item">
-              <label class="controls__elem">
-                <input type="checkbox" class="controls__checkbox"></input>
-                <div class="tag controls__tag">Водопад Янг-бей</div>
+            <li class="form-reviews__item">
+              <input type="radio" name="radio" id="radio3" class="form-reviews__radio-button" hidden></input>
+              <label class="form-reviews__label" for="radio3">
+                <div class="form-reviews__label-text">Водопад Янг-бей</div>
               </label>
-            </li>
-            <li class="controls__item">
-              <label class="controls__elem">
-                <input type="checkbox" class="controls__checkbox"></input>
-                <div class="tag controls__tag">Тур по Индонезии</div>
+            </li> 
+            <li class="form-reviews__item">
+              <input type="radio" name="radio" id="radio4" class="form-reviews__radio-button" hidden></input>
+              <label class="form-reviews__label" for="radio4">
+                <div class="form-reviews__label-text">Тур по Индонезии</div>
               </label>
-            </li>
-            <li class="controls__item">
-              <label class="controls__elem">
-                <input type="checkbox" class="controls__checkbox"></input>
-                <div class="tag controls__tag">Никакими</div>
+            </li> 
+            <li class="form-reviews__item">
+              <input type="radio" name="radio" id="radio5" class="form-reviews__radio-button" hidden></input>
+              <label class="form-reviews__label" for="radio5">
+                <div class="form-reviews__label-text">Никакими</div>
               </label>
-            </li>
-            <li class="controls__item">
-              <label class="controls__elem">
-                <input type="checkbox" class="controls__checkbox"></input>
-                <div class="tag controls__tag">Тур по Бали </div>
+            </li> 
+            <li class="form-reviews__item">
+              <input type="radio" name="radio" id="radio6" class="form-reviews__radio-button" hidden></input>
+              <label class="form-reviews__label" for="radio6">
+                <div class="form-reviews__label-text">Тур по Бали </div>
               </label>
-            </li>
-            <li class="controls__item">
-              <label class="controls__elem">
-                <input type="checkbox" class="controls__checkbox"></input>
-                <div class="tag controls__tag">Другое</div>
+            </li> 
+            <li class="form-reviews__item">
+              <input type="radio" name="radio" id="radio7" class="form-reviews__radio-button" hidden></input>
+              <label class="form-reviews__label" for="radio7">
+                <div class="form-reviews__label-text">Другое</div>
               </label>
-            </li>
+            </li> 
           </ul>
         </div>
         <div class="form__buttons">
@@ -309,6 +306,7 @@
                 <a href="tel: +78007003030" class="contacts__phone">8 800 700 30 30 </a>
               </address>
             </div>
+
           </div>
         </div>
       </footer>
