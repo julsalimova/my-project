@@ -1,0 +1,32 @@
+.hello {
+  margin-bottom: 246px;
+}
+.hello__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 330px;
+}
+
+.hello__title {
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 90px;
+width: 50%;
+color: #FFFFFF;
+
+}
+
+.hello__text {
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+
+}
+
+.button--more {
+ left: 0;
+
+}
+
