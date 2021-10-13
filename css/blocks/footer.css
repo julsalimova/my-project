@@ -58,49 +58,46 @@
   font-size: 26px;
   color: #FFFFFF;
  }
- 
- .social {
-   margin-right: 73px;
-   position: relative;
-   width: 36px;
-   height: 36px;
-   border-radius: 50%;
-   background: url(../../img/css_sprites.png);
- }
 
-
-
-.social__item--vk::after {
-  position: absolute;
-  transform: translate( -50% -50% );
-  width: 36px;
-  height: 36px;
-  background: url(../../img/css_sprites.png)  -66px -10px;
-  overflow: hidden;
-}
-
-.social__item--fb::after {
-  position: absolute;
-  transform: translate( -50% -50% );
-  width: 36px;
-  height: 36px;
-  background: url(../../img/css_sprites.png)  -122px -10px;
-}
-.social__item--inst::after {
-  position: absolute;
-  transform: translate( -50% -50% );
-  width: 36px;
-  height: 36px;
-  background: url(../../img/css_sprites.png)  -178px -10px;
-}*/
-
- /*.social__list {
+/*.social__list {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-right: 73px;
+ }*/
+
+.social {
+  position: relative;
+  margin-right: 73px;
+}
+
+.social__item {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  transform: translate(-50% -50%);
+  background: url(../../img/css_sprites.png) no-repeat;
+}
+
+.social__item--tg:hover {
+ background-position:  -10px -10px;
+}
+
+.social__item--vk:hover  {
+  background-position:  -66px -10px;
  }
 
+ .social__item--fb:hover {
+  background-position:  -122px -10px;
+ }
+
+ .social__item--fb:hover {
+  background-position:  -178px -10px;
+ }
+
+/*
 .social__item {
   padding: 0 5px;
 }
