@@ -35,6 +35,12 @@
   margin-right: 0px;
 }
 
+.menu__item :hover {
+  color: #DA0100 ;
+  transition: 0.3s all;
+}
+
+
 .header__right {
   display: flex;
   flex-direction: column;
@@ -57,7 +63,12 @@
   font-weight: normal;
   font-size: 13px;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #98A4A8;
+ }
+
+ .contact__link :hover{
+  color:  #FFFFFF;
+  transition: 0.3s all;
  }
 
  .contacts__list {

@@ -91,6 +91,7 @@ margin-bottom: 3px;
   width: 32px;
   height: 32px;
   line-height: 32px;
+  transition: 0.3s all;
  }
 
 .paginator__link{

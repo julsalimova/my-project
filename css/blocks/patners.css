@@ -19,9 +19,7 @@ margin-bottom: 90px;
   flex-wrap: wrap;
   margin-left: 0;
 }
-.partners__item {
-  
-}
+
 
 .partners__link {
   text-decoration: none;
@@ -30,6 +28,10 @@ margin-bottom: 90px;
   height: 80px;
   align-items: center;
   justify-content: center;
+  filter: grayscale(100%);
 }
 
-
+.partners__link:hover {
+  filter: grayscale(0%);
+  transition: 0.3s all;
+}

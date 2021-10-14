@@ -13,6 +13,7 @@
   font-weight: bold;
   color: #1A1B1E;
   margin-bottom: 60px;
+  font-family: Open Sans;
 }
 
 .form__line {
@@ -80,18 +81,21 @@ font-family: Open Sans;
 
 .form-reviews__text {
   color: #1A1B1E;
-  max-width: 40%;
-  margin-right: 5%;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 34px;
+  margin-right: 73px;
 }
 
 .form-reviews__list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 23px;
 }
 
 .form-reviews__item {
-  margin-bottom: 7px;
-  margin-right: 9px;
+  margin-bottom: 9px;
+  margin-right: 14px;
 }
 
 .form-reviews__label {
@@ -128,14 +132,30 @@ cursor: pointer;
 }
 
 .button--reset {
- background: #2B2B2B;
+ background: #8E8E8E;
  cursor: pointer;
  border: 1px solid transparent;
  margin-right: 17px;
 }
 
 .button--reset:hover {
- background: #F5170E;
+ background:  #2B2B2B;
  color: #FFFFFF;
+ transition: 0.3s all;
+ border: 1px solid transparent;
 }
 
+.button--sent {
+  background: #F5170E;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-right: 17px;
+ }
+
+ .button--sent:hover {
+  background:  #2B2B2B;
+  color: #FFFFFF;
+  background: #F5170E;
+  transition: 0.3s all;
+  border: 1px solid transparent;
+ }

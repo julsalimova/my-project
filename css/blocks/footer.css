@@ -59,59 +59,69 @@
   color: #FFFFFF;
  }
 
-/*.social__list {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+ .social {
   margin-right: 73px;
- }*/
+ }
 
-.social {
-  position: relative;
-  margin-right: 73px;
+.social__list {
+  display: flex;
+  align-items: center;
+ }
+
+ .social__item {
+  margin-right: 10px;
 }
 
-.social__item {
-  content: "";
-  display: block;
-  position: absolute;
+.social__item--tg {
   width: 36px;
   height: 36px;
-  transform: translate(-50% -50%);
-  background: url(../../img/css_sprites.png) no-repeat;
+  z-index: 1;
+  background: url(../../icons/css_sprites.png) -11px -11px;
 }
 
 .social__item--tg:hover {
- background-position:  -10px -10px;
+  background-position:   -243px -11px;
+ }
+
+ .social__item--vk {
+  width: 36px;
+  height: 36px;
+  z-index: 1;
+  background: url(../../icons/css_sprites.png) -69px -11px;
 }
 
 .social__item--vk:hover  {
-  background-position:  -66px -10px;
+  background-position:  -301px -11px;
  }
 
- .social__item--fb:hover {
-  background-position:  -122px -10px;
- }
-
- .social__item--fb:hover {
-  background-position:  -178px -10px;
- }
-
-/*
-.social__item {
-  padding: 0 5px;
-}
-
- .social__link {
-  display: block;
+ .social__item--fb {
   width: 36px;
   height: 36px;
- }*/
+  z-index: 1;
+  background: url(../../icons/css_sprites.png) -127px -11px;
+}
+
+
+ .social__item--fb:hover {
+  background-position:  -359px -11px;
+ }
+
+ .social__item--inst {
+  width: 36px;
+  height: 36px;
+  z-index: 1;
+  background: url(../../icons/css_sprites.png) -185px -11px;
+}
+
+
+ .social__item--inst:hover {
+  background-position:  -417px -11px;
+ }
+
 
 .footer--service {
   background: #001821;
   height: 90px;
   padding: 20px;
- 
 }
 
